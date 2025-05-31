@@ -1,0 +1,262 @@
+[
+  {
+    "id": 1,
+    "type": "number_sequence",
+    "question": "Urutan angka berikut adalah: 2, 5, 10, 17, 26, ?. Apa angka berikutnya?",
+    "options": [
+      { "value": "A", "text": "35" },
+      { "value": "B", "text": "37" },
+      { "value": "C", "text": "39" },
+      { "value": "D", "text": "41" }
+    ],
+    "correct_answer": "B",
+    "explanation": "Pola ini didasarkan pada penambahan kuadrat bilangan berurutan: 2 + 3 = 5 (3 = 1² + 2), 5 + 5 = 10 (5 = 2² + 1), 10 + 7 = 17 (7 = 3² - 2), 17 + 9 = 26 (9 = 4² - 7), 26 + 11 = 37 (11 = 5² - 14)."
+  },
+  {
+    "id": 2,
+    "type": "verbal_logic",
+    "question": "Jika semua kucing adalah mamalia, dan beberapa mamalia adalah hitam, manakah pernyataan berikut yang pasti benar?",
+    "options": [
+      { "value": "A", "text": "Semua kucing adalah hitam." },
+      { "value": "B", "text": "Beberapa kucing adalah hitam." },
+      { "value": "C", "text": "Beberapa mamalia bukan kucing." },
+      { "value": "D", "text": "Tidak ada kucing yang hitam." }
+    ],
+    "correct_answer": "C",
+    "explanation": "Dari premis 'semua kucing adalah mamalia' dan 'beberapa mamalia adalah hitam,' kita tidak bisa menyimpulkan bahwa kucing pasti hitam atau tidak hitam. Namun, karena kucing adalah bagian dari mamalia dan ada mamalia lain selain kucing, maka pasti ada mamalia yang bukan kucing."
+  },
+  {
+    "id": 3,
+    "type": "pattern",
+    "question": "Bayangkan sebuah urutan kotak dengan pola warna: Kotak 1: Merah, Kotak 2: Biru, Kotak 3: Kuning, Kotak 4: Merah, Kotak 5: Biru, Kotak 6: ?. Warna apa yang ada di kotak ke-6?",
+    "options": [
+      { "value": "A", "text": "Merah" },
+      { "value": "B", "text": "Kuning" },
+      { "value": "C", "text": "Biru" },
+      { "value": "D", "text": "Hijau" }
+    ],
+    "correct_answer": "B",
+    "explanation": "Pola warnanya berulang setiap tiga kotak: Merah, Biru, Kuning. Kotak 1: Merah, Kotak 2: Biru, Kotak 3: Kuning, Kotak 4: Merah, Kotak 5: Biru, Kotak 6: Kuning."
+  },
+  {
+    "id": 4,
+    "type": "spatial_reasoning",
+    "question": "Sebuah kubus memiliki sisi yang diberi nomor 1 sampai 6. Jika kubus diputar sehingga sisi dengan nomor 1 berada di atas dan sisi dengan nomor 2 menghadap ke depan, sisi manakah yang berada di bawah?",
+    "options": [
+      { "value": "A", "text": "3" },
+      { "value": "B", "text": "4" },
+      { "value": "C", "text": "5" },
+      { "value": "D", "text": "6" }
+    ],
+    "correct_answer": "D",
+    "explanation": "Dalam kubus standar, sisi yang berlawanan memiliki jumlah 7 (misalnya, 1 berlawanan dengan 6, 2 dengan 5, 3 dengan 4). Jika sisi 1 di atas, maka sisi 6 ada di bawah."
+  },
+  {
+    "id": 5,
+    "type": "deductive_logic",
+    "question": "Tiga teman, Andi, Budi, dan Caca, masing-masing memilih satu buah: apel, jeruk, atau pisang. Andi tidak memilih apel, Budi tidak memilih jeruk, dan pisang tidak dipilih oleh Caca. Siapa yang memilih jeruk?",
+    "options": [
+      { "value": "A", "text": "Andi" },
+      { "value": "B", "text": "Budi" },
+      { "value": "C", "text": "Caca" },
+      { "value": "D", "text": "Tidak dapat ditentukan" }
+    ],
+    "correct_answer": "C",
+    "explanation": "Andi tidak memilih apel, jadi Andi memilih jeruk atau pisang. Budi tidak memilih jeruk, jadi Budi memilih apel atau pisang. Caca tidak memilih pisang, jadi Caca memilih apel atau jeruk. Karena Budi tidak memilih jeruk, jeruk harus dipilih oleh Andi atau Caca. Karena Caca tidak memilih pisang, dan Budi tidak memilih jeruk, maka Andi harus memilih pisang. Jika Andi memilih pisang, maka Andi tidak memilih jeruk, sehingga Caca harus memilih jeruk."
+  },
+  {
+    "id": 6,
+    "type": "number_sequence",
+    "question": "Urutan angka berikut adalah: 1, 3, 6, 10, 15, ?. Apa angka berikutnya?",
+    "options": [
+      { "value": "A", "text": "18" },
+      { "value": "B", "text": "20" },
+      { "value": "C", "text": "21" },
+      { "value": "D", "text": "22" }
+    ],
+    "correct_answer": "C",
+    "explanation": "Ini adalah deret bilangan triangular: 1 = 1, 3 = 1+2, 6 = 1+2+3, 10 = 1+2+3+4, 15 = 1+2+3+4+5. Angka berikutnya adalah 1+2+3+4+5+6 = 21."
+  },
+  {
+    "id": 7,
+    "type": "verbal_logic",
+    "question": "Semua burung bisa terbang. Beberapa burung adalah penguin. Manakah pernyataan yang pasti benar?",
+    "options": [
+      { "value": "A", "text": "Semua penguin bisa terbang." },
+      { "value": "B", "text": "Beberapa penguin bisa terbang." },
+      { "value": "C", "text": "Tidak ada penguin yang bisa terbang." },
+      { "value": "D", "text": "Beberapa burung bukan penguin." }
+    ],
+    "correct_answer": "D",
+    "explanation": "Dari premis 'semua burung bisa terbang' dan 'beberapa burung adalah penguin,' kita tidak bisa menyimpulkan apakah penguin bisa terbang atau tidak tanpa informasi tambahan. Namun, karena beberapa burung adalah penguin, maka pasti ada burung lain yang bukan penguin."
+  },
+  {
+    "id": 8,
+    "type": "pattern",
+    "question": "Urutan simbol adalah: ★, ▲, ■, ★, ▲, ?. Simbol apa yang berikutnya?",
+    "options": [
+      { "value": "A", "text": "★" },
+      { "value": "B", "text": "▲" },
+      { "value": "C", "text": "■" },
+      { "value": "D", "text": "●" }
+    ],
+    "correct_answer": "C",
+    "explanation": "Pola simbol berulang setiap tiga urutan: ★, ▲, ■. Setelah ★, ▲, ■, ★, ▲, simbol berikutnya adalah ■."
+  },
+  {
+    "id": 9,
+    "type": "spatial_reasoning",
+    "question": "Sebuah dadu dengan sisi bernomor 1 sampai 6 dilempar sehingga sisi 3 menghadap ke atas dan sisi 4 menghadap ke arah utara. Sisi manakah yang menghadap ke arah selatan?",
+    "options": [
+      { "value": "A", "text": "1" },
+      { "value": "B", "text": "2" },
+      { "value": "C", "text": "5" },
+      { "value": "D", "text": "6" }
+    ],
+    "correct_answer": "B",
+    "explanation": "Dalam dadu standar, sisi yang berlawanan memiliki jumlah 7 (1-6, 2-5, 3-4). Jika sisi 3 di atas, maka sisi 4 di bawah. Jika sisi 4 menghadap utara, maka sisi berlawanan (yaitu 3) menghadap selatan, tetapi karena 3 di atas, kita harus mempertimbangkan orientasi sisi lain. Sisi yang menghadap selatan adalah sisi 2."
+  },
+  {
+    "id": 10,
+    "type": "deductive_logic",
+    "question": "Empat orang (Dina, Eko, Fani, Gita) duduk di meja bundar. Dina di sebelah Eko, Eko di sebelah Fani, dan Gita tidak di sebelah Dina. Siapa yang duduk di sebelah Gita?",
+    "options": [
+      { "value": "A", "text": "Dina" },
+      { "value": "B", "text": "Eko" },
+      { "value": "C", "text": "Fani" },
+      { "value": "D", "text": "Tidak dapat ditentukan" }
+    ],
+    "correct_answer": "C",
+    "explanation": "Dina di sebelah Eko, dan Eko di sebelah Fani, berarti Dina-Eko-Fani berurutan (misalnya, Dina-Eko-Fani atau Fani-Eko-Dina). Karena Gita tidak di sebelah Dina, Gita harus berada di posisi yang tersisa, yaitu di sebelah Fani (dan mungkin Eko, tetapi bukan Dina). Jadi, Gita pasti di sebelah Fani."
+  },
+  {
+    "id": 11,
+    "type": "number_sequence",
+    "question": "Urutan angka berikut adalah: 4, 7, 11, 16, 22, ?. Apa angka berikutnya?",
+    "options": [
+      { "value": "A", "text": "28" },
+      { "value": "B", "text": "30" },
+      { "value": "C", "text": "32" },
+      { "value": "D", "text": "34" }
+    ],
+    "correct_answer": "B",
+    "explanation": "Selisih antar angka meningkat dengan pola: 3, 4, 5, 6, ... 4 + 3 = 7, 7 + 4 = 11, 11 + 5 = 16, 16 + 6 = 22, 22 + 7 = 30."
+  },
+  {
+    "id": 12,
+    "type": "verbal_logic",
+    "question": "Jika semua dokter adalah cerdas, dan beberapa dokter adalah pria, manakah pernyataan yang pasti benar?",
+    "options": [
+      { "value": "A", "text": "Semua pria adalah cerdas." },
+      { "value": "B", "text": "Beberapa pria adalah cerdas." },
+      { "value": "C", "text": "Semua cerdas adalah dokter." },
+      { "value": "D", "text": "Beberapa dokter bukan pria." }
+    ],
+    "correct_answer": "B",
+    "explanation": "Karena semua dokter cerdas dan beberapa dokter adalah pria, maka beberapa pria (yaitu dokter pria) pasti cerdas."
+  },
+  {
+    "id": 13,
+    "type": "pattern",
+    "question": "Urutan huruf adalah: A, C, I, I, ?, A. Huruf apa yang mengisi tanda tanya?",
+    "options": [
+      { "value": "A", "text": "A" },
+      { "value": "B", "text": "E" },
+      { "value": "C", "text": "I" },
+      { "value": "D", "text": "K" }
+    ],
+    "correct_answer": "B",
+    "explanation": "Urutan huruf A, C, I, I, ?, A dapat dianalisis dengan melihat posisi huruf dalam alfabet: A=1, C=3, I=9. Pola ini menunjukkan perubahan posisi: 1, 3 (1+2), 9 (3+6), 9 (9+0). Selanjutnya, 9 + (-4) = 5 (E), dan 5 + (-2) = 3 (C), tetapi urutan terakhir menunjukkan A (1). Jadi, huruf kelima adalah E."
+  },
+  {
+    "id": 14,
+    "type": "spatial_reasoning",
+    "question": "Sebuah piramida segitiga memiliki 4 sisi bernomor 1 sampai 4. Jika sisi 1 adalah alas dan sisi 2 menghadap ke depan, sisi manakah yang berada di sisi kanan?",
+    "options": [
+      { "value": "A", "text": "1" },
+      { "value": "B", "text": "2" },
+      { "value": "C", "text": "3" },
+      { "value": "D", "text": "4" }
+    ],
+    "correct_answer": "C",
+    "explanation": "Dalam piramida segitiga (tetrahedron), jika sisi 1 adalah alas dan sisi 2 menghadap depan, sisi-sisi lain (3 dan 4) akan berada di kanan dan kiri. Berdasarkan orientasi standar, sisi 3 akan berada di kanan."
+  },
+  {
+    "id": 15,
+    "type": "deductive_logic",
+    "question": "Tiga kotak berisi emas, perak, atau timah. Kotak 1 bertuliskan 'Emas,' Kotak 2 'Perak,' dan Kotak 3 'Timah,' tetapi semua tulisan salah. Kotak manakah yang berisi emas?",
+    "options": [
+      { "value": "A", "text": "Kotak 1" },
+      { "value": "B", "text": "Kotak 2" },
+      { "value": "C", "text": "Kotak 3" },
+      { "value": "D", "text": "Tidak dapat ditentukan" }
+    ],
+    "correct_answer": "B",
+    "explanation": "Karena semua tulisan salah, Kotak 1 (bertuliskan 'Emas') tidak berisi emas, Kotak 2 (bertuliskan 'Perak') tidak berisi perak, dan Kotak 3 (bertuliskan 'Timah') tidak berisi timah. Karena setiap kotak berisi salah satu dari emas, perak, atau timah, maka: Kotak 1 berisi perak atau timah, Kotak 2 berisi emas atau timah, Kotak 3 berisi emas atau perak. Karena Kotak 3 tidak berisi timah, maka Kotak 3 berisi emas atau perak. Jika Kotak 3 berisi emas, maka Kotak 2 (yang tidak berisi perak) harus berisi timah, dan Kotak 1 berisi perak. Tetapi, jika Kotak 3 berisi perak, maka Kotak 1 (yang tidak berisi emas) harus berisi timah, dan Kotak 2 berisi emas. Pemeriksaan menunjukkan hanya konfigurasi kedua yang konsisten: Kotak 2 berisi emas."
+  },
+  {
+    "id": 16,
+    "type": "number_sequence",
+    "question": "Urutan angka berikut adalah: 3, 6, 12, 24, 48, ?. Apa angka berikutnya?",
+    "options": [
+      { "value": "A", "text": "72" },
+      { "value": "B", "text": "96" },
+      { "value": "C", "text": "84" },
+      { "value": "D", "text": "108" }
+    ],
+    "correct_answer": "B",
+    "explanation": "Urutan ini adalah deret geometris di mana setiap angka dikali 2: 3 × 2 = 6, 6 × 2 = 12, 12 × 2 = 24, 24 × 2 = 48, 48 × 2 = 96."
+  },
+  {
+    "id": 17,
+    "type": "verbal_logic",
+    "question": "Jika semua apel adalah buah, dan beberapa buah adalah manis, manakah pernyataan yang pasti benar?",
+    "options": [
+      { "value": "A", "text": "Semua apel adalah manis." },
+      { "value": "B", "text": "Beberapa apel adalah manis." },
+      { "value": "C", "text": "Beberapa buah bukan apel." },
+      { "value": "D", "text": "Tidak ada apel yang manis." }
+    ],
+    "correct_answer": "C",
+    "explanation": "Dari premis \"semua apel adalah buah\" dan \"beberapa buah adalah manis,\" kita tidak bisa menyimpulkan apakah apel manis atau tidak. Namun, karena apel adalah bagian dari buah dan ada buah lain selain apel, maka pasti ada buah yang bukan apel."
+  },
+  {
+    "id": 18,
+    "type": "pattern",
+    "question": "Urutan simbol adalah: ○, ●, ○, ○, ●, ?. Simbol apa yang berikutnya?",
+    "options": [
+      { "value": "A", "text": "○" },
+      { "value": "B", "text": "●" },
+      { "value": "C", "text": "□" },
+      { "value": "D", "text": "▲" }
+    ],
+    "correct_answer": "A",
+    "explanation": "Pola simbol ini mengikuti urutan berulang: ○, ●, ○, ○, ●, ○. Setiap tiga simbol, pola dimulai kembali dengan ○. Jadi, simbol berikutnya adalah ○."
+  },
+  {
+    "id": 19,
+    "type": "spatial_reasoning",
+    "question": "Sebuah kubus dengan sisi bernomor 1 sampai 6 diputar sehingga sisi 5 di atas dan sisi 3 menghadap ke barat. Sisi manakah yang menghadap ke timur?",
+    "options": [
+      { "value": "A", "text": "1" },
+      { "value": "B", "text": "2" },
+      { "value": "C", "text": "4" },
+      { "value": "D", "text": "6" }
+    ],
+    "correct_answer": "B",
+    "explanation": "Dalam kubus standar, sisi berlawanan memiliki jumlah 7 (1-6, 2-5, 3-4). Jika sisi 5 di atas, maka sisi 2 di bawah. Jika sisi 3 menghadap ke barat, maka sisi berlawanan (4) menghadap ke timur. Namun, karena sisi 5 di atas, orientasi sisi lain menunjukkan sisi 2 menghadap ke timur berdasarkan rotasi standar."
+  },
+  {
+    "id": 20,
+    "type": "deductive_logic",
+    "question": "Tiga siswa (Hani, Ika, Joni) masing-masing memiliki hobi: menyanyi, menari, atau melukis. Hani tidak menyanyi, Ika tidak melukis, dan Joni tidak menari. Siapa yang melukis?",
+    "options": [
+      { "value": "A", "text": "Hani" },
+      { "value": "B", "text": "Ika" },
+      { "value": "C", "text": "Joni" },
+      { "value": "D", "text": "Tidak dapat ditentukan" }
+    ],
+    "correct_answer": "A",
+    "explanation": "Hani tidak menyanyi, jadi Hani menari atau melukis. Ika tidak melukis, jadi Ika menyanyi atau menari. Joni tidak menari, jadi Joni menyanyi atau melukis. Karena Ika tidak melukis, maka melukis harus dilakukan oleh Hani atau Joni. Karena Joni tidak menari dan Ika tidak melukis, maka Ika harus menari, Joni menyanyi, dan Hani melukis."
+  }
+]
